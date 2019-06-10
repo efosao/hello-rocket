@@ -23,8 +23,8 @@ struct PageData {
 #[get("/")]
 fn index() -> Template {
     let context = PageData {
-        title: "HELLLOWWWW WORLLLLD".to_string(),
-        desc: "DHHSDHSDHHDSHDHSDHD".to_string(),
+        title: "Hello World".to_string(),
+        desc: "This is a simple page description".to_string(),
     };
     Template::render("index", &context)
 }

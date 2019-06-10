@@ -1,7 +1,31 @@
-<div class="entry">
-  <h1>{{title}}</h1>
-  <div class="body">
-    <p>{{desc}}</p>
-    <a href="/todo">Todo</a>
-  </div>
-</div>
+<html>
+  <head>
+    <title>{{Title}}</title>
+    <style>
+      body {
+        background: #EEE;
+        font-family: 'Open Sans', sans-serif;
+      }
+      img {
+        margin: 0 auto;
+        padding: 0;
+        max-width: calc(100vw - 20px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="entry">
+      <h1>{{title}}</h1>
+      <div class="body">
+        <p>{{desc}}</p>
+        <ul>
+          <li>
+            <a href="/todo">Todo</a>
+          </li>
+        </ul>
+        <img src="https://static3.cbrimages.com/wordpress/wp-content/uploads/2018/06/spider-man-ps4-game.jpg">
+      </div>
+    </div>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  </body>
+</html>
